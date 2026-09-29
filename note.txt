@@ -1,0 +1,6 @@
+我的学习笔记：
+1. Agent 就是一个 while 循环，不断调模型直到它说"答完了"
+2. 工具就是普通 Python 函数，用 @function_tool 装饰器暴露给模型
+3. Session 把对话历史存到 SQLite，这样多轮对话不会忘
+4. 工具报错要 try/except，不能让整个 Agent 崩掉
+5. 下一个目标：做一个能读 PDF 的文档助手
